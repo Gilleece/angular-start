@@ -5,16 +5,21 @@ import { products } from '../products';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
 })
 export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert(
+      'The product has been shared! Why though? Ah, who am I to ask.'
+    );
+  }
+
+  onNotify() {
+    window.alert('you gonna be notified so GOOD.');
   }
 }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
