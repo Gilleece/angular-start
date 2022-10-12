@@ -9,5 +9,8 @@
     </p>
 
     <button type="button" (click)="share()">Share</button>
+    <p *ngIf="product && product.price > 700">
+      <button type="button" (click)="share()">Notify me!</button>
+    </p>
   </h3>
 </div>
