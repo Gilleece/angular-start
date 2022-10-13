@@ -1,3 +1,3 @@
 # angular-start
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-kvsdbe)
+Simple e-commerce built with Angular to become familiar with the framework.
