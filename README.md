@@ -1,3 +1,3 @@
-# angular-start
+# Angular-Store
 
-Simple e-commerce built with Angular to become familiar with the framework.
+Simple e-commerce site built with Angular to become familiar with the framework.
